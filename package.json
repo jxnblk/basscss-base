@@ -8,7 +8,9 @@
   },
   "keywords": [
     "CSS",
-    "OOCSS"
+    "OOCSS",
+    "BASSCSS",
+    "Rework"
   ],
   "author": "Brent Jackson",
   "license": "MIT"
