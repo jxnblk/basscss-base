@@ -1,0 +1,28 @@
+/* Buttons */
+
+button,
+input[type=submit],
+.button {
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  display: inline-block;
+  box-sizing: border-box;
+  /*
+  line-height: $ui-height - (2 * $ui-padding-y);
+  */
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: var(--space-1);
+  padding: var(--ui-padding-y) var(--ui-padding-x);
+  height: auto;
+  width: auto;
+  min-height: var(--ui-height);
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.button:hover { text-decoration: none }
+
