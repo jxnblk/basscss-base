@@ -17,14 +17,14 @@
   --h5: .875rem;
   --h6: .75rem;
 
-  --space-1: .5em;
-  --space-2: 1em;
-  --space-3: 2em;
-  --space-4: 4em;
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 4rem;
 
-  --ui-height: 2em;
-  --ui-padding-x: .75em;
-  --ui-padding-y: .25em;
+  --ui-height: 2.25em;
+  --ui-padding-x: 1rem;
+  --ui-padding-y: .25rem;
 
 }
 

@@ -4,20 +4,20 @@ label {
   display: block;
 }
 
-input {
-  line-height: calc(var(--ui-height) - var(--ui-padding-y));
+input:not([type=radio]):not([type=checkbox]) {
+  line-height: var(--ui-height);
   box-sizing: border-box;
   height: var(--ui-height);
-  padding: var(--ui-padding-y) var(--ui-padding-x);
-  margin-top: 0;
-  margin-bottom: var(--space-1);
   -webkit-appearance: none;
 }
 
-  input:not([type=submit]) {
-    display: block;
-    width: 100%;
-  }
+input:not([type=submit]):not([type=radio]):not([type=checkbox]) {
+  display: block;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: var(--space-1);
+  padding: var(--ui-padding-y) var(--ui-padding-x);
+}
 
 select {
   line-height: calc(var(--ui-height) - var(--ui-padding-y));

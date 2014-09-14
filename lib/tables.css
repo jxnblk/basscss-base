@@ -1,0 +1,19 @@
+
+.table-reset {
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+  .table-reset th { text-align: left }
+
+  .table-reset th,
+  .table-reset td {
+    padding: $ui-padding;
+    line-height: inherit;
+  }
+
+  .table-reset th { vertical-align: bottom }
+  .table-reset td { vertical-align: top }
+

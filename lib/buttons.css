@@ -6,17 +6,17 @@ input[type=submit],
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
-  -webkit-appearance: none;
   display: inline-block;
   box-sizing: border-box;
+  line-height: var(--ui-height);
+  margin: 0;
   /*
-  line-height: $ui-height - (2 * $ui-padding-y);
-  */
-
   margin-left: 0;
   margin-right: 0;
   margin-bottom: var(--space-1);
   padding: var(--ui-padding-y) var(--ui-padding-x);
+  */
+  padding: 0 var(--ui-padding-x);
   height: auto;
   width: auto;
   min-height: var(--ui-height);
