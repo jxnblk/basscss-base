@@ -10,12 +10,6 @@ input[type=submit],
   box-sizing: border-box;
   line-height: var(--ui-height);
   margin: 0;
-  /*
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: var(--space-1);
-  padding: var(--ui-padding-y) var(--ui-padding-x);
-  */
   padding: 0 var(--ui-padding-x);
   height: auto;
   width: auto;
