@@ -1,5 +1,5 @@
 
-/* BASSCSS Base */
+/* Basscss Base */
 
 :root {
 
@@ -17,12 +17,13 @@
   --h5: .875rem;
   --h6: .75rem;
 
+  --bold-font-weight: bold;
+
   --space-1: .5rem;
   --space-2: 1rem;
   --space-3: 2rem;
   --space-4: 4rem;
 
-  --button-font-weight: 700;
   --ui-height: 2.25em;
   --ui-padding-x: 1rem;
   --ui-padding-y: .25rem;

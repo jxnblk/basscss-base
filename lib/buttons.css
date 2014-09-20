@@ -3,7 +3,7 @@
 button,
 input[type=submit],
 .button {
-  font-weight: var(--button-font-weight);
+  font-weight: var(--bold-font-weight);
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
