@@ -1,12 +1,20 @@
 
-input:not([type=radio]):not([type=checkbox]) {
+input[type=text],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
   line-height: var(--ui-height);
   box-sizing: border-box;
   height: var(--ui-height);
   -webkit-appearance: none;
-}
-
-input:not([type=submit]):not([type=radio]):not([type=checkbox]) {
   margin-top: 0;
   margin-bottom: var(--space-1);
   padding: var(--ui-padding-y) var(--ui-padding-x);
