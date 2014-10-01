@@ -1,4 +1,12 @@
 
+input,
+select,
+textarea,
+fieldset {
+  margin-top: 0;
+  margin-bottom: var(--space-1);
+}
+
 input[type=text],
 input[type=datetime],
 input[type=datetime-local],
@@ -15,26 +23,34 @@ input[type=week] {
   box-sizing: border-box;
   height: var(--ui-height);
   -webkit-appearance: none;
-  margin-top: 0;
-  margin-bottom: var(--space-1);
   padding: var(--ui-padding-y) var(--ui-padding-x);
 }
 
 select {
   line-height: calc(var(--ui-height) - var(--ui-padding-y));
-  display: block;
+  padding: var(--ui-padding-y) var(--ui-padding-x);
   box-sizing: border-box;
-  width: 100%;
+}
+
+select:not([multiple]) {
   height: var(--ui-height);
-  margin-top: 0;
-  margin-bottom: var(--space-1);
 }
 
 select[multiple] {}
 
 textarea {
   box-sizing: border-box;
-  margin-top: 0;
-  margin-bottom: var(--space-1);
+  line-height: calc( var(--ui-height) - 2 * var(--ui-padding-y) );
+  padding: var(--ui-padding-y) var(--ui-padding-x);
+}
+
+.fieldset-reset {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border: 0;
+}
+.fieldset-reset legend {
+  padding: 0;
 }
 
