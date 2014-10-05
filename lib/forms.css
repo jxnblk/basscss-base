@@ -19,29 +19,28 @@ input[type=tel],
 input[type=time],
 input[type=url],
 input[type=week] {
-  line-height: calc( var(--ui-height) - 2 * var(--ui-padding-y) );
+  line-height: 1.75;
   box-sizing: border-box;
-  height: var(--ui-height);
   -webkit-appearance: none;
-  padding: var(--ui-padding-y) var(--ui-padding-x);
+  line-height: 1.75;
+  height: 2.25em;
+  padding: .25em var(--space-2);
 }
 
 select {
-  line-height: calc(var(--ui-height) - var(--ui-padding-y));
-  padding: var(--ui-padding-y) var(--ui-padding-x);
   box-sizing: border-box;
+  line-height: 1.75;
+  padding: .25em var(--space-2);
 }
 
 select:not([multiple]) {
-  height: var(--ui-height);
+  height: 2.25em;
 }
-
-select[multiple] {}
 
 textarea {
   box-sizing: border-box;
-  line-height: calc( var(--ui-height) - 2 * var(--ui-padding-y) );
-  padding: var(--ui-padding-y) var(--ui-padding-x);
+  line-height: 1.75;
+  padding: .25em var(--space-2);
 }
 
 .fieldset-reset {

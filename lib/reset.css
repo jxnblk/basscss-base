@@ -1,16 +1,9 @@
 
-body, button {
-  margin: 0
-}
+body, button { margin: 0 }
 
-button, input, select, textarea {
+input, select, textarea {
   font-family: inherit;
   font-size: 100%;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, main, nav, section, summary {
-  display: block;
 }
 
 img { max-width: 100% }

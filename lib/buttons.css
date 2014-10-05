@@ -4,19 +4,23 @@ input[type=button],
 input[type=submit],
 input[type=reset],
 .button {
+  font-family: inherit;
+  font-size: inherit;
   font-weight: var(--bold-font-weight);
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
   box-sizing: border-box;
-  line-height: var(--ui-height);
+  line-height: 1.125;
+  padding: .5em var(--space-2);
   margin: 0;
-  padding: 0 var(--ui-padding-x);
   height: auto;
-  width: auto;
-  min-height: var(--ui-height);
+  border: 1px solid transparent;
+}
+
+::-moz-focus-inner {
   border: 0;
-  -webkit-appearance: none;
+  padding: 0;
 }
 
 .button:hover { text-decoration: none }

@@ -13,7 +13,7 @@ table {
 
   th,
   td {
-    padding: var(--ui-padding-y) var(--ui-padding-x);
+    padding: .25em var(--space-2);
     line-height: inherit;
   }
 
