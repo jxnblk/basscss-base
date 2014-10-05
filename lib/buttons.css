@@ -4,8 +4,6 @@ input[type=button],
 input[type=submit],
 input[type=reset],
 .button {
-  font-family: inherit;
-  font-size: inherit;
   font-weight: var(--bold-font-weight);
   text-decoration: none;
   cursor: pointer;
