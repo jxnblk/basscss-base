@@ -21,10 +21,9 @@ input[type=url],
 input[type=week] {
   line-height: 1.75;
   box-sizing: border-box;
-  -webkit-appearance: none;
-  line-height: 1.75;
   height: 2.25em;
   padding: .25em var(--space-2);
+  -webkit-appearance: none;
 }
 
 select {
