@@ -27,9 +27,9 @@
 
 }
 
-@import "./lib/reset.css";
-@import "./lib/typography.css";
-@import "./lib/forms.css";
-@import "./lib/buttons.css";
-@import "./lib/tables.css";
+@import "./lib/reset";
+@import "./lib/typography";
+@import "./lib/forms";
+@import "./lib/buttons";
+@import "./lib/tables";
 
