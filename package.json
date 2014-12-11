@@ -13,5 +13,12 @@
     "Rework"
   ],
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "basscss-base-buttons": "0.0.1",
+    "basscss-base-forms": "0.0.1",
+    "basscss-base-reset": "0.0.1",
+    "basscss-base-tables": "0.0.1",
+    "basscss-base-typography": "0.0.1"
+  }
 }

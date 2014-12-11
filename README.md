@@ -1,6 +1,6 @@
 # Basscss Base
 
-Base element styles for use with Rework. 
+Base element styles module for Basscss
 
 http://basscss.com
 

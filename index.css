@@ -1,35 +1,29 @@
-/*
-    Basscss Base
-*/
+/* Basscss Base */
+
+@import "basscss-base-reset";
+@import "basscss-base-typography";
+@import "basscss-base-forms";
+@import "basscss-base-buttons";
+@import "basscss-base-tables";
+
 
 :root {
-
   --font-family: 'Helvetica Neue', Helvetica, sans-serif;
   --line-height: 1.5;
   --heading-font-family: var(--font-family);
   --heading-font-weight: bold;
   --heading-line-height: 1.25;
   --monospace-font-family: 'Source Code Pro', Consolas, monospace;
-
+  --bold-font-weight: bold;
   --h1: 2rem;
   --h2: 1.5rem;
   --h3: 1.25rem;
   --h4: 1rem;
   --h5: .875rem;
   --h6: .75rem;
-
-  --bold-font-weight: bold;
-
   --space-1: .5rem;
   --space-2: 1rem;
   --space-3: 2rem;
   --space-4: 4rem;
-
 }
-
-@import "./lib/reset";
-@import "./lib/typography";
-@import "./lib/forms";
-@import "./lib/buttons";
-@import "./lib/tables";
 
